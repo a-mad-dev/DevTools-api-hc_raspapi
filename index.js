@@ -3,7 +3,7 @@ const express = require("express");
 const crypto = require("crypto");
 const path = require("path");
 // Add RateLimiting
-const ratelimit = require("express-rate-limit");
+const rateLimit = require("express-rate-limit");
 
 
 // Create the express app
