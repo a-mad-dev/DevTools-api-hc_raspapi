@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #0f172a;
+  color: #e2e8f0;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 5px;
+}
+
+.subtitle {
+  color: #94a3b8;
+  margin-bottom: 30px;
+}
+
+.card {
+  background: #1e293b;
+  padding: 20px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  border: 1px solid #334155;
+}
+
+code {
+  background: #0f172a;
+  padding: 3px 6px;
+  border-radius: 5px;
+  color: #38bdf8;
+}
+
+pre {
+  background: #0f172a;
+  padding: 10px;
+  border-radius: 8px;
+  overflow-x: auto;
+  color: #a5b4fc;
+}

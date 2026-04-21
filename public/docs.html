@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Devtools API Docs</title>
+  <link rel="stylesheet" href="./docs.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Devtools API</h1>
+    <p class="subtitle">Simple utility API for developers</p>
+
+    <div class="card">
+      <h2>Base URL</h2>
+      <code>http://localhost:3000</code>
+    </div>
+
+    <div class="card">
+      <h2>GET /random</h2>
+      <p>Returns a random number (0–99)</p>
+      <code>{ "number": 42 }</code>
+    </div>
+
+    <div class="card">
+      <h2>GET /uuid</h2>
+      <p>Returns a random UUID</p>
+      <code>{ "uuid": "..." }</code>
+    </div>
+
+    <div class="card">
+      <h2>GET /hash?text=hello</h2>
+      <p>Returns SHA256 hash of text</p>
+      <code>{ "text": "hello", "hash": "..." }</code>
+    </div>
+
+    <div class="card">
+      <h2>POST /json/format</h2>
+      <p>Wrap your JSON inside <code>{ data: {} }</code></p>
+
+      <pre>
+Request:
+{
+  "data": {
+    "a": 1
+  }
+}
+
+Response:
+{
+  "valid": true,
+  "formatted_json": { "a": 1 }
+}
+      </pre>
+    </div>
+
+  </div>
+</body>
+</html>
