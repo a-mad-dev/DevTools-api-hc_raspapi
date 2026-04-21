@@ -8,7 +8,7 @@ It provides simple but useful tools like random numbers, UUID generation, hashin
 
 ## 🌐 Live API
 
-`https://your-app-name.onrender.com`
+`https://devtools-api-hc-raspapi.onrender.com`
 
 ---
 
@@ -16,7 +16,7 @@ It provides simple but useful tools like random numbers, UUID generation, hashin
 
 Interactive docs:
 
-`https://your-app-name.onrender.com/docs`
+`https://devtools-api-hc-raspapi.onrender.com/docs`
 
 ---
 
@@ -29,6 +29,7 @@ Interactive docs:
 - 📊 API status endpoint
 - 📄 HTML documentation page
 - 🌍 Fully deployed on Render
+- 🚫 Rate Limiting
 
 ---
 
@@ -217,16 +218,6 @@ devtools-api/
 - Clean API structure
 - Human + machine readable design
 - Easy deployable backend service
-
----
-
-## 🚀 Future Improvements
-
-- API key authentication
-- Rate limiting
-- More utility endpoints (base64, timestamp, encoding tools)
-- Versioned API routes (`/v1/...`)
-- Public domain deployment improvements
 
 ---
 
